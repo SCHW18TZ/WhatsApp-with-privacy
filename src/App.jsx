@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -11,6 +10,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
